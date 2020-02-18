@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { Container } from "semantic-ui-react";
 
-import HorizontalMenuBar from './Components/MenuItems/HorizontalMenuBar';
+// import HorizontalMenuBar from './Components/MenuItems/HorizontalMenuBar';
 import VerticalMenuBar from './Components/MenuItems/VerticalMenuBar';
 
 import 'semantic-ui-css/semantic.min.css';
@@ -19,7 +19,7 @@ document.head.appendChild(styleLink);
 
 ReactDOM.render(
   <App>
-    <HorizontalMenuBar />
+    {/* <HorizontalMenuBar /> */}
     <VerticalMenuBar />
   </App>,
   document.getElementById("root")

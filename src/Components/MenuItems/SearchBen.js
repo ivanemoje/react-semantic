@@ -3,9 +3,9 @@
 import React from 'react'
 import { Container, Header, Segment, Grid } from 'semantic-ui-react'
 
-const Home = () => (
+const SearchBen = () => (
   <Container fluid>
-    <Header as='h2'>Home Component</Header>
+    <Header as='h2'>SearchBen Component</Header>
     <p>
      Part three.
     </p>
@@ -19,4 +19,4 @@ const Home = () => (
   </Container>
 )
 
-export default Home;
+export default SearchBen;
